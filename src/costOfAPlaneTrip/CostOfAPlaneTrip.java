@@ -62,7 +62,7 @@ public class CostOfAPlaneTrip {
                 toplamUcret *= 0.8;
             }
 
-            System.out.printf("Indirimli toplam ucret: %.2f" , toplamUcret);
+            System.out.printf("Indirimli toplam ucret: %.2f\n" , toplamUcret);
             scanner.close();
 
         }
