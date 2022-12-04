@@ -20,7 +20,6 @@ public class Runner {
             System.out.println(year + " bir artık yıldır !");
         } else {
             System.out.println(year + " bir artık yıldır değildir !");
-
         }
         scanner.close();
     }
