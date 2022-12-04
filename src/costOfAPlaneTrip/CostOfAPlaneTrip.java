@@ -48,7 +48,7 @@ public class CostOfAPlaneTrip {
         if (!errorFlag) {
 
             double toplamUcret = distance * perKm * way;
-            System.out.printf("Toplam ucret: %.2f \n" , toplamUcret);
+            System.out.printf("Toplam ucret: %.2f \n", toplamUcret);
 
             if (age < 12) {
                 toplamUcret *= 0.5;
@@ -62,7 +62,7 @@ public class CostOfAPlaneTrip {
                 toplamUcret *= 0.8;
             }
 
-            System.out.printf("Indirimli toplam ucret: %.2f\n" , toplamUcret);
+            System.out.printf("Indirimli toplam ucret: %.2f\n", toplamUcret);
             scanner.close();
 
         }
