@@ -2,14 +2,14 @@ package cheneseZodiacCalculator;
 
 import java.util.Scanner;
 
-public class Main {
+public class Runner {
 
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		int birthYear;
 		String burc = "";
 		System.out.print("Doğum Yılınızı Giriniz : ");
-		birthYear = input.nextInt();
+		birthYear = scanner.nextInt();
 
 		switch (birthYear % 12) {
 			case 0:
@@ -54,6 +54,7 @@ public class Main {
 		}
 		System.out.println("Çin Zodyağı Burcunuz : " + burc);
 
+		scanner.close();
 	}
 
 }
