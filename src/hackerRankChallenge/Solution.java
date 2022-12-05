@@ -10,6 +10,8 @@ public class Solution {
     static List<String> resultList = new ArrayList<>();
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
 //        String[] arr = {"123", "5", "433", "-1", "2222222", "213333333333333333333333333333333333", "-100000000000000"};
 
         Scanner scanner = new Scanner(System.in);
@@ -18,9 +20,10 @@ public class Solution {
         String[] arr = new String[size];
 
         for (int i = 0; i < size; i++) {
-            Scanner sc = new Scanner(System.in);
             arr[i] = sc.next();
         }
+
+        sc.close();
 
         for (String s : arr) {
             checkTheGivenNumber("Byte", s);
@@ -40,6 +43,7 @@ public class Solution {
             }
         }
 
+        scanner.close();
     }
 
     private static void checkTheGivenNumber(String key, String s) {

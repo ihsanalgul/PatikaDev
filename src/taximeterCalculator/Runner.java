@@ -27,5 +27,6 @@ public class Runner {
 
         System.out.println("Total = " + total);
 
+        scanner.close();
     }
 }

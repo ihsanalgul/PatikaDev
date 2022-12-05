@@ -53,5 +53,7 @@ public class Runner {
         // Toplam Fiyatı göster.
         System.out.printf("....."+"\nToplam: %.2f",totalPrice);
         System.out.print(" TL.");
+
+        scanner.close();
     }
 }

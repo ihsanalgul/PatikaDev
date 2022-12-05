@@ -40,5 +40,7 @@ public class Runner {
 
         // Step-3: Print result
         System.out.println("Area of the triangle = " + Math.sqrt(A));
+    
+        scanner.close();
     }
 }

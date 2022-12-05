@@ -147,5 +147,6 @@ public class Runner {
                 System.out.println("Hatalı gün girdiniz!");
         }
 
+        input.close();
     }
 }

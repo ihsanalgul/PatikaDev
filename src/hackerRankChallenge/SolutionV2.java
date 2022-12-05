@@ -26,6 +26,7 @@ class SolutionV2{
             }
 
         }
+        sc.close();
     }
 }
 

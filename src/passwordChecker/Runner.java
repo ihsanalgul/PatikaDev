@@ -41,5 +41,7 @@ public class Runner {
             }
         }
 
+        scanner.close();
+        scannerPass.close();
     }
 }

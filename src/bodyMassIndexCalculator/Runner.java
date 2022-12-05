@@ -24,5 +24,6 @@ public class Runner {
 
         System.out.println("Your body mass index is " + weight / (height * height));
 
+        scanner.close();
     }
 }

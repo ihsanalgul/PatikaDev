@@ -34,5 +34,6 @@ public class Runner {
             System.out.println("The student pass the class successfully!\nAverage = " + average);
         } else System.out.println("The student failed! Average: "+average+"\nAverage must be 55 to pass in minimum.");
 
+    scanner.close();
     }
 }

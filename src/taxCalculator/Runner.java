@@ -51,5 +51,6 @@ public class Runner {
 
         System.out.println("Tax = " + tax + " TL");
 
+        scanner.close();
     }
 }
