@@ -20,9 +20,15 @@ public class Runner {
                 averageOfTwelve += i;
             }
         }
+
+        averageOfTwelve /= counter;
+
+        System.out.printf("There are %d numbers that are multiples of 12 up to %d \n", counter, nextInt);
+
+        System.out.println("Result: " + averageOfTwelve);
+
         scanner.close();
 
-        System.out.println("Result: "+averageOfTwelve);
     }
 
 }
