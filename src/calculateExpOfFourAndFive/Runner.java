@@ -13,14 +13,18 @@ public class Runner {
 
         System.out.println("Please enter the number: ");
         int nextInt = scanner.nextInt();
+        System.out.println("\n==4 exponentials=");
 
         for (int i = 1; i < nextInt; i*=4) {
             System.out.print(i+",");
         }
+
+        System.out.println("\n==5 exponentials=");
         
         for (int i = 1; i < nextInt; i*=5) {
             System.out.print(i+",");
         }
+        System.out.println("\n==============================");
 
         scanner.close();
     }
