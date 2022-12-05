@@ -1,8 +1,6 @@
 package hackerRankChallenge;
 
 import java.util.*;
-import java.io.*;
-
 
 
 class SolutionV2{
