@@ -8,17 +8,21 @@ import java.util.Scanner;
 public class Runner {
 
     public static void main(String[] args) {
+        System.out.printf("\033[1;31m Ebob-Ekok for %d and %d\n\033[0m", x,y); 
 
         Scanner scanner= new Scanner(System.in);
         int x,y;
 
         int ebob=0,temp;
 
+        System.out.println("Enter x:");
+
         x= scanner.nextInt();
+
+        System.out.println("Enter y:");
 
         y= scanner.nextInt();
      
-        System.out.printf("Ebob-Ekok for %d and %d", x,y);
 
         if (x>y) {
             temp=y;
