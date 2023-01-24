@@ -1,4 +1,4 @@
-package sumOfDigitsInANumber;
+
 
 /*
 Ödev
