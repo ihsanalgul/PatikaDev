@@ -1,3 +1,5 @@
+package perfectNumber;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -22,7 +24,7 @@ Bir sayının kendisi hariç pozitif tam sayı çarpanları (kalansız bölen sa
 
         List<Integer> posDividers=new ArrayList<>();
 
-        for (int i = 1; i <+ number; i++) {
+        for (int i = 1; i < number; i++) {
             if (number % i == 0) {
                 posDividers.add(i);
             }
@@ -30,8 +32,8 @@ Bir sayının kendisi hariç pozitif tam sayı çarpanları (kalansız bölen sa
 
         int sum=0;
 
-        for (int i = 0; i < posDividers.size(); i++) {
-            sum+=posDividers.get(i);
+        for (Integer posDivider : posDividers) {
+            sum += posDivider;
         }
 
         if (sum == number) {
