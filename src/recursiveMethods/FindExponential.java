@@ -2,7 +2,7 @@ package recursiveMethods;
 
 import java.util.Scanner;
 
-public class Runner {
+public class FindExponential {
     /*
     Taban değeri giriniz :2
     Üs değerini giriniz : 0
